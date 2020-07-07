@@ -1,0 +1,78 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {}
+    },
+    {
+      "path": "pages/changeInfo/changeInfo",
+      "style": {}
+    },
+    {
+      "path": "pages/personal/personal",
+      "style": {}
+    },
+    {
+      "path": "pages/news/news",
+      "style": {}
+    },
+    {
+      "path": "pages/follow/follow",
+      "style": {
+        "app-plus": {
+          "scrollIndicator": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/city/city",
+      "style": {}
+    },
+    {
+      "path": "pages/chooseCity/chooseCity",
+      "style": {}
+    },
+    {
+      "path": "pages/friend/friend",
+      "style": {}
+    },
+    {
+      "path": "pages/player/player",
+      "style": {}
+    },
+    {
+      "path": "pages/modify/modify",
+      "style": {}
+    },
+    {
+      "path": "pages/user/user",
+      "style": {}
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationStyle": "custom",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/follow/follow"
+      },
+      {
+        "pagePath": "pages/friend/friend"
+      },
+      {
+        "pagePath": "pages/news/news"
+      },
+      {
+        "pagePath": "pages/personal/personal"
+      }
+    ]
+  }
+}

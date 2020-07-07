@@ -1,0 +1,21 @@
+{
+  "name": "imitate-tiktok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "^3.2.0",
+    "http-proxy-middleware": "^1.0.4",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^9.0.1",
+    "koa-static": "^5.0.0"
+  }
+}

@@ -1,0 +1,42 @@
+<template>
+	<view class="choose-city-header">
+	  <navigator open-type="navigateBack" class="iconfont iconchahao left"></navigator>	
+    <view class="title">切换城市</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			};
+		}
+	}
+</script>
+
+<style>
+.choose-city-header {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  background: #000000;
+  color: #FFFFFF;
+}
+.left {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 18px;
+}
+.title {
+  font-size: 16px;
+  text-align: center;
+}
+</style>

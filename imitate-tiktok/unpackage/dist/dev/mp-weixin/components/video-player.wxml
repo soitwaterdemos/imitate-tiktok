@@ -1,0 +1,1 @@
+<view class="video-player">{video.id}<video class="video" id="myVideo" src="{{'http://192.168.6.63:8080/video/'+video.src}}" controls="{{false}}" loop="{{true}}" autoplay="{{video.id==1}}" data-event-opts="{{[['tap',[['click',['$event']]]]]}}" bindtap="__e"></video></view>

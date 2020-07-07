@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "choose-city-header": "/components/chooseCityHeader",
+    "choose-city-list": "/components/chooseCityList",
+    "choose-city-alphabet": "/components/chooseCityAlphabet"
+  }
+}

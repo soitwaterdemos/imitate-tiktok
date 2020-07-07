@@ -1,0 +1,1 @@
+<view><view class="follow-nav"><view class="iconfont iconxiangji icon"><text class="icon-text">随拍</text></view><view class="middle"><navigator class="text" style="{{(follow)}}" open-type="switchTab" url="/pages/follow/follow">关注</navigator><navigator class="text" style="{{(friend)}}" open-type="switchTab" url="/pages/friend/friend">好友</navigator></view></view></view>

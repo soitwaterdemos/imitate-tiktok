@@ -1,0 +1,87 @@
+
+.right-author {
+  --width: 50px;
+  width: var(--width);
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+/*头像*/
+.author-img {
+  position: relative;
+}
+/*头像下的加号*/
+.iconjiahao {
+  width: 18px;
+  height: 18px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -9px;
+  left: 16px;
+  text-align: center;
+  line-height: 18px;
+  font-size: 10px;
+}
+.img {
+  height: var(--width);
+  width: var(--width);
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.right-box {
+  width: var(--width);
+  height: 30px;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+}
+.number {
+  font-size: 12px;
+  text-align: center;
+}
+.disk {
+  /* transform: translateY(-10px); */
+  margin-top: 15px;
+  height: var(--width);
+  width: var(--width);
+  /* transform-origin: 50% 50%; */
+}
+.disk .img {
+  -webkit-animation: rotate 1.5s linear infinite;
+          animation: rotate 1.5s linear infinite;
+}
+@-webkit-keyframes rotate{
+0%{
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    /* transform-origin: 50% 50%; */
+}
+100%{
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    /* transform-origin: 50% 50%; */
+}
+}
+@keyframes rotate{
+0%{
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    /* transform-origin: 50% 50%; */
+}
+100%{
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    /* transform-origin: 50% 50%; */
+}
+}
+
